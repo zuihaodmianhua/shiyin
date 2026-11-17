@@ -1,0 +1,21 @@
+# build output
+build/
+shots/
+*.o
+*.exe
+
+# local runtime state
+shiyin.ini
+shiyin.meta
+cache/
+shiyin.log
+incoming/
+
+# toolchain downloads
+tools/mingw32/
+tools/*.zip
+tools/*.part
+
+# python bytecode from helper scripts
+__pycache__/
+*.pyc

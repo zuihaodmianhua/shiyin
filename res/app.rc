@@ -1,0 +1,42 @@
+#pragma code_page(65001)
+
+1 ICON "shiyin.ico"
+
+1 24 "app.manifest"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILEOS 0x00040004L
+FILETYPE 0x00000001L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "080404B0"
+    BEGIN
+      VALUE "CompanyName", "Shiyin contributors"
+      VALUE "FileDescription", "拾音 1.0 - 兼容 Windows 95 及以后的本地音乐播放器"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "Shiyin"
+      VALUE "LegalCopyright", "MPL-2.0 | Copyright (c) 2026 Shiyin contributors"
+      VALUE "OriginalFilename", "Shiyin.exe"
+      VALUE "ProductName", "拾音 (Shiyin)"
+      VALUE "ProductVersion", "1.0.0.0"
+    END
+    BLOCK "040904E4"
+    BEGIN
+      VALUE "CompanyName", "Shiyin contributors"
+      VALUE "FileDescription", "Shiyin 1.0 - local music player for Windows 95 and later"
+      VALUE "FileVersion", "1.0.0.0"
+      VALUE "InternalName", "Shiyin"
+      VALUE "LegalCopyright", "MPL-2.0 | Copyright (c) 2026 Shiyin contributors"
+      VALUE "OriginalFilename", "Shiyin.exe"
+      VALUE "ProductName", "Shiyin"
+      VALUE "ProductVersion", "1.0.0.0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x804, 1200, 0x409, 1252
+  END
+END
